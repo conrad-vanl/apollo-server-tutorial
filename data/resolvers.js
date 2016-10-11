@@ -14,7 +14,7 @@ const resolveFunctions = {
     },
     fortuneCookie(){
       return FortuneCookie.getOne();
-    },
+    }
   },
   RootMutation: {
     createAuthor: (root, args) => { return Author.create(args); },
